@@ -1,6 +1,9 @@
 provider "aws" {
-  region     = var.region
-  access_key = var.access_key
-  secret_key = var.secret_key
-  #   profile    = "myaws"
+  region  = "eu-west-1"
+  profile = "myaws"
+}
+
+
+variable "instance_config" {
+  type = map(any)
 }
