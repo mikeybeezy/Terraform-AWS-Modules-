@@ -63,15 +63,9 @@ variable "nic_tags" {
   }
 }
 
-
-variable "private_ips" {
-  type    = list(string)
-  default = ["10.0.0.50"]
-}
-
 variable "ami" {
   type    = string
-  default = "ami-005e54dee72cc1d00" # us-west-2
+  default = "ami-0fe0b2cf0e1f25c8a" # us-west-2
 
 }
 

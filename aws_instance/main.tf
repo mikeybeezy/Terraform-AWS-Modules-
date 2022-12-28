@@ -4,7 +4,7 @@ resource "aws_instance" "server_instance" {
 
   network_interface {
     network_interface_id = var.nic_id
-    device_index         = 1
+    device_index         = 0
   }
 
   tags = var.instance_tags

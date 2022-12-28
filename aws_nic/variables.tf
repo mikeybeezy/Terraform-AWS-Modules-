@@ -9,9 +9,3 @@ variable "nic_tags" {
     "Name" = "my_network_interface"
   }
 }
-
-
-variable "private_ips" {
-  type    = list(string)
-  default = ["10.0.0.50"]
-}
