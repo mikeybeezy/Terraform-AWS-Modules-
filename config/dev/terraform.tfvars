@@ -9,25 +9,25 @@ subnet_cidr_block = "10.0.1.0/24"
 
 instance_type = "t2.micro"
 
-subnet_tags = {
-  Name = "subnet"
-}
+# subnet_tags = {
+#   Name = "subnet"
+# }
 
-vpc_tags = {
-  Name = "Dev VPC"
-}
-
-
-sg_tags = {
-  Name = "allow tls"
-}
+# vpc_tags = {
+#   Name = "Dev VPC"
+# }
 
 
-nig_tags = {
-  Name = "my_network_interface"
-}
+# sg_tags = {
+#   Name = "allow tls"
+# }
 
 
-instance_tags = {
-  Name = "Dev Server"
-}
+# nic_tags = {
+#   Name = "my_network_interface"
+# }
+
+
+# instance_tags = {
+#   Name = "Dev Server"
+# }

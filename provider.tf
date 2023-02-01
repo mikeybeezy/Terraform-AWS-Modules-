@@ -1,9 +1,9 @@
 provider "aws" {
   region  = "eu-west-1"
-  profile = "myaws"
+  profile = "default"
 }
 
 
-variable "instance_config" {
-  type = map(any)
-}
+# variable "instance_config" {
+#   type = map(any)
+# }
